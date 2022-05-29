@@ -1,0 +1,7 @@
+function z_measure = GetVolts()  % 측정값 받는 함수
+%
+%
+v1 = 0 + 4*randn(1,1);         % randz를 이용한 노이즈
+v2 = 0 + 4*randn(1,1);         % randz를 이용한 노이즈
+ 
+z_measure = 14.4 + v;         % z = x + v
